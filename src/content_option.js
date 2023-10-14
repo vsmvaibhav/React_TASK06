@@ -1,47 +1,32 @@
-const logotext = "JOHN";
+const logotext = "VSM";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "vaibhav mane",
+    description: "",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m vaibhav sudam mane",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Student at Vellore Institute of Technology",
+        second: "Driven CSE Student",
+        third: "Developing Web Development Skills",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Hello! I'm a motivated CSE student at Vellore Institute of Technology Chennai Campus, currently pursuing my degree in Computer Science and Engineering. With a keen interest in web development, I am actively honing my skills in this domain.",
+    your_img_url: "https://imgs.search.brave.com/a3qZuiACqjNDJ8vsg9dYkud-kzp0wxY8jnB0HmvCfTE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDY1NDU0/MTYuanBn",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "about Myself",
+    aboutme: "Apart from my academic pursuits, I am an active member of the Technical Department in the Mathematics Club since February 2023. This role has allowed me to enhance my problem-solving abilities and collaborate with like-minded individuals in exploring the intersection of mathematics and technology",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "C lang",
+        value: 80,
     },
     {
-        name: "Djano",
+        name: "c++",
         value: 85,
     },
     {
@@ -53,112 +38,111 @@ const skills = [{
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "java",
+        value: 75,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
+// const services = [{
+//         title: "UI & UX Design",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+//     {
+//         title: "Mobile Apps",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+//     {
+//         title: "Wordpress Design",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+// ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+// const dataportfolio = [{
+//         // // img: "https://picsum.photos/400/?grayscale",
+//         // description: "The wisdom of life consists in the elimination of non-essentials.",
+//         // link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/800/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/600/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/300/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/700/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-];
+//     {
+//         img: "https://picsum.photos/400/600/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/300/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/550/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://picsum.photos/400/700/?grayscale",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+// ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "vaibhav01mane@gmail.com",
+    YOUR_FONE: "9983198575",
+    description: "",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    // YOUR_SERVICE_ID: "service_id",
+    // YOUR_TEMPLATE_ID: "template_id",
+    // YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/vsmvaibhav",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/vaibhav01mane/",
     twitter: "https://twitter.com",
 };
 export {
     meta,
     dataabout,
-    dataportfolio,
-    worktimeline,
+    // dataportfolio,
     skills,
-    services,
+    // services,
     introdata,
     contactConfig,
     socialprofils,
